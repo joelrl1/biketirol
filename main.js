@@ -75,7 +75,7 @@ overlays.gpx.addTo(map);
 
 // GPX Track Layer implementieren
 
-let gpxTrack = new L.GPX("../data/20.gpx",{
+let gpxTrack = new L.GPX("./data/20.gpx",{
     async: true,
   
         marker_options: {
